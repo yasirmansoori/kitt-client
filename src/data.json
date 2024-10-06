@@ -1,0 +1,150 @@
+{
+  "airports": [
+    {
+      "id": 1,
+      "label": "Indira Gandhi International Airport (DEL)",
+      "name": "Indira Gandhi Airport",
+      "code": "DEL",
+      "city": "New Delhi",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "label": "Chhatrapati Shivaji Maharaj International Airport (BOM)",
+      "name": "Chhatrapati Shivaji Maharaj Airport",
+      "code": "BOM",
+      "city": "Mumbai",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "label": "John F. Kennedy International Airport (JFK)",
+      "name": "John F. Kennedy Airport",
+      "code": "JFK",
+      "city": "New York",
+      "country": "United States"
+    },
+    {
+      "id": 4,
+      "label": "Dubai International Airport (DXB)",
+      "name": "Dubai International Airport",
+      "code": "DXB",
+      "city": "Dubai",
+      "country": "United Arab Emirates"
+    },
+    {
+      "id": 5,
+      "label": "Heathrow Airport (LHR)",
+      "name": "Heathrow Airport",
+      "code": "LHR",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 6,
+      "label": "Singapore Changi Airport (SIN)",
+      "name": "Singapore Changi Airport",
+      "code": "SIN",
+      "city": "Singapore",
+      "country": "Singapore"
+    },
+    {
+      "id": 7,
+      "label": "Los Angeles International Airport (LAX)",
+      "name": "Los Angeles International Airport",
+      "code": "LAX",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 8,
+      "label": "Beijing Capital International Airport (PEK)",
+      "name": "Beijing Capital International Airport",
+      "code": "PEK",
+      "city": "Beijing",
+      "country": "China"
+    },
+    {
+      "id": 9,
+      "label": "Sydney Kingsford Smith International Airport (SYD)",
+      "name": "Sydney Kingsford Smith Airport",
+      "code": "SYD",
+      "city": "Sydney",
+      "country": "Australia"
+    },
+    {
+      "id": 10,
+      "label": "Tokyo Haneda Airport (HND)",
+      "name": "Tokyo Haneda Airport",
+      "code": "HND",
+      "city": "Tokyo",
+      "country": "Japan"
+    }
+  ],
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Dubai",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728063429/KITT/e6e279c7-c6bb-415e-8d1f-0eee12e8a4b9-alDhkb_nlc3g3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "London",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728063559/KITT/distritos-m_rjqu5i.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Singapore",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728063573/KITT/Singapore_Gardens_by_the_Bay_Banner_20_1_nxi9a3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "New York",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728063614/KITT/new-york_bxx6e9.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Thailand",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728064097/KITT/images_ayef2w.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Paris",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728064125/KITT/image_dz3rsp.jpg"
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "name": "Fly International !",
+      "title": "Get up to 50% OFF* on International Flights.",
+      "code": "FLYINT",
+      "validity": "Valid till 1st Nov'24",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728166621/KITT/summer-vacation-banner-design-colorful-260nw-2156827229_zylddi.png"
+    },
+    {
+      "id": 2,
+      "name": "Exclusive Offer*",
+      "title": "Upto 30%* OFF* on Flights",
+      "code": "FLY-BOB-RBL-30",
+      "validity": "Valid till 12th Nov'24",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728161201/KITT/offer-flight-1728023807_ga5uis.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Indigo Dhamaal Sale",
+      "title": "LIVE: Special Sale by Indigo!",
+      "code": "INDIGO20",
+      "validity": "Valid till 1th Dec'24",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728161212/KITT/offrs-1727352705_jnn9or.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Domestic Flight bookings",
+      "title": "Get up to Rs. 2,000* OFF",
+      "code": "FLYDOM",
+      "validity": "Valid till 1st Jan'25",
+      "imgLink": "https://res.cloudinary.com/dnjcut34n/image/upload/v1728161226/KITT/top-1710146193_rsyxzq.jpg"
+    }
+  ]
+}

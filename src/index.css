@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --searchButton: 0, 62, 57;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}

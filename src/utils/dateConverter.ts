@@ -25,4 +25,14 @@ function convertStringToShortDate(dateString: string): string {
   return formattedDate;
 }
 
-export { convertStringToShortDate };
+function convertStringToDate(dateString: string): string {
+  // Extract year, month, and day using substring
+  const year = dateString.substring(0, 4);
+  const month = dateString.substring(4, 6);
+  const day = dateString.substring(6, 8);
+
+  // Return formatted date string
+  return `${year}-${month}-${day}`;
+}
+
+export { convertStringToShortDate, convertStringToDate };

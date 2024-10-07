@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import { IoSearchSharp } from "react-icons/io5";
 import { convertStringToShortDate } from "../utils/dateConverter";
 import data from "../data.json";
-import FlightAPI from "../apis/FlightAPI";
+// import FlightAPI from "../apis/FlightAPI";
 import FlightCard, { FlightProps } from "../components/Flight/FlightCard";
 import Footer from "../components/Fotter/Footer";
 import Placeholder from "../components/Helpers/Placeholder";
 import { SwipeFromTopModal } from "../components/Modals/Modals";
+import { dummyResponseGenerator } from "../utils/dummyResponseGenerator";
 
 export default function FlightPage() {
   const { id } = useParams();
@@ -46,22 +47,32 @@ export default function FlightPage() {
 
   // get all flights
   useEffect(() => {
-    const fetchFlights = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        if (id) {
-          const response = await FlightAPI.getFlightById(id);
-          setFlights(response.flights);
-        }
-      } catch (error) {
-        setError("Failed to fetch flights. Please try again.");
-      } finally {
-        setLoading(false);
-      }
-    };
+    // const fetchFlights = async () => {
+    //   setLoading(true);
+    //   setError(null);
+    //   try {
+    //     if (id) {
+    //       const response = await FlightAPI.getFlightById(id);
+    //       setFlights(response.flights);
+    //     }
+    //   } catch (error) {
+    //     setError("Failed to fetch flights. Please try again.");
+    //   } finally {
+    //     setLoading(false);
+    //   }
+    // };
 
-    fetchFlights();
+    // fetchFlights();
+
+    // generate dummy data
+    const response = dummyResponseGenerator(id);
+
+    // delay to simulate loading, and set flights
+    setLoading(true);
+    setTimeout(() => {
+      setFlights(response.flights);
+      setLoading(false);
+    }, 2000);
   }, [id]);
 
   return (
